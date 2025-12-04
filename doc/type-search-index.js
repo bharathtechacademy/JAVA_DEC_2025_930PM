@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"comments","l":"CommentsInJava"},{"p":"comments","l":"DocumentationComments"},{"p":"lanaguage.basics","l":"HelloWorld"},{"p":"printStatements","l":"PrintStatements"}];updateSearchResults();

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"comments"},{"l":"lanaguage.basics"},{"l":"printStatements"}];updateSearchResults();
