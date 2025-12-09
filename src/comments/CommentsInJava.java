@@ -13,6 +13,8 @@ public class CommentsInJava {
 	 * If there is no main method, we cannot execute any program.
 	 */
 	
+	static boolean visaStatus = false;
+	
 	public static void main(String[] args) {		
 		
 		//This is a print statement. It can print the information and move to the next line.		
