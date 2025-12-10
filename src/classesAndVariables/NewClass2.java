@@ -1,4 +1,4 @@
-package classes;
+package classesAndVariables;
 
 public class NewClass2 extends ClassesInJava{ // child extends parent
 	

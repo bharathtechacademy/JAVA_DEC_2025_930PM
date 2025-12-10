@@ -1,4 +1,4 @@
-package classes;
+package classesAndVariables;
 
 public class ClassesInJava {
 	
