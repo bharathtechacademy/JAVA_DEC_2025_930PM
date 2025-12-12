@@ -135,7 +135,7 @@ public class CollectionsFramework {
 		// Syntax to create an HashSet: Set<DataType> variable = new HashSet<DataType>();
 		// Syntax to add values : variable.add(value);
 		// Syntax to remove values : variable.remove(value/index);
-		// Syntax to access values : variable.get(index);
+		// Syntax to access values : variable.get(index);//won't work as Set doesn't have index
 		// Syntax to get size : variable.size();
 		
 		//Order : HashSet follows random order
@@ -182,7 +182,7 @@ public class CollectionsFramework {
 		// Syntax to access values : variable.get(index);
 		// Syntax to get size : variable.size();
 		
-		//Order : TreeSet follows insertion order
+		//Order : TreeSet follows Ascending order
 		//Nulls : TreeSet not allows null values
 		
 		Set<String> empNamesTreeSet = new TreeSet<String>();
@@ -192,7 +192,7 @@ public class CollectionsFramework {
 		empNamesTreeSet.add("Mayuri");
 		empNamesTreeSet.add("Hari");
 		empNamesTreeSet.remove("Bharath Reddy");
-		//empNamesTreeSet.add(null);
+		//empNamesTreeSet.add(null); //NullPointerException
 		System.out.println(empNamesTreeSet.size());
 		System.out.println(empNamesTreeSet);
 		
