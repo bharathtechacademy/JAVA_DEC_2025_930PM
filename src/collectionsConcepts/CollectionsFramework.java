@@ -286,7 +286,7 @@ public class CollectionsFramework {
 		
 		//Order : Hashtable follows random order of keys
 		//Nulls : Hashtable allows null values , but not allows null keys
-		
+				
 		Map<String, Integer> empNamesHashtable = new Hashtable<String,Integer>();
 		empNamesHashtable.put("Bharath Reddy", 101);
 		empNamesHashtable.put("Mayuri", 102);
