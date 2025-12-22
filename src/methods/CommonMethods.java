@@ -2,7 +2,8 @@ package methods;
 
 public class CommonMethods {
 	
-	void launchBrowserAndApplication(String browser){
+	//static method
+	static void launchBrowserAndApplication(String browser){
 		System.out.println("Launch the "+browser+" browser");
 		System.out.println("Enter url 'www.icici.com' and launch application");		
 	}	
