@@ -2,8 +2,18 @@ package access.mod1;
 
 public class AccessModClass1 {
 	
-	//data
-	public String name ="Bharath";
+	//private data
+	public String name ="Bharath";//with in the class only
+	
+	//public method
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String newName) {
+		name = newName;
+		System.out.println(name);
+	}
 	
 	//method
 	public  int empId() {
