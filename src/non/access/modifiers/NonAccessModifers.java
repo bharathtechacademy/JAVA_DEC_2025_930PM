@@ -29,7 +29,8 @@ public class NonAccessModifers {
 	//Final class cannot be inherited.
 	
 	//4. Synchronized :
-	
+	// Synchronize non-access modifier can be used before the methods.
+	// When we are going to use the synchronized keyword before the method, it is going to allow only one thread at a time.
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
