@@ -20,6 +20,16 @@ public class NonAccessModifers {
 	// 2. abstract :
 	// Abstract keyword is used to declare a method without body. Whenever you want to provide high-level information without implementing the method, we are going to use abstract keywords.
 	
+	
+	//3. final :
+	// When a user don't want to allow modifications on top of Java elements, we are going to use the final non-access modifier.
+	
+	//Final data cannot be modified.
+	//Final method cannot be overridden.
+	//Final class cannot be inherited.
+	
+	//4. Synchronized :
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
