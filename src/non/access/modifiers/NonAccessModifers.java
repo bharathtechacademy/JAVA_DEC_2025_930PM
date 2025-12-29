@@ -31,6 +31,15 @@ public class NonAccessModifers {
 	//4. Synchronized :
 	// Synchronize non-access modifier can be used before the methods.
 	// When we are going to use the synchronized keyword before the method, it is going to allow only one thread at a time.
+	
+	// 5. volatile: Volatile is the key word we can use before the variable, especially when the variable data is frequently changing.
+	// Volatile is going to help us to update the value directly in the main memory itself, instead of updating the value in temporary memory and sending it back to main memory later.
+	// So, volatile is mainly used in multi-threading environment.
+	
+	// 6. transient: Transient is the key word we can use before the variable, especially when we are working with serialization.
+	
+	//Serialization : Serialization is the process of converting an object into a byte stream.
+	//De-serialization : De-serialization is the process of converting a byte stream back into a copy of the object.
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
